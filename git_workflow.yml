@@ -14,3 +14,6 @@
   - # add remote: git remote add origin https://github.com/ntbhoang/my-first-repo.git
   - # git pull 
   - # Now, we won't see anything, we need to set main branch to keep track with remote server: git checkout main 
+
+  4- Push and pull:
+  
