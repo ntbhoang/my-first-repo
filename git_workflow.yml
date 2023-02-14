@@ -5,3 +5,12 @@
   - git restore --stage file_name # unstage the file
   - git checkout -B feature/lesson
   - git branch # check the current branch
+
+3- Remote vs local:
+  - # create a local repository: mkdir my-first-repo
+  - # goto the created dir, init git: git init
+  - # connect local repo to centralize server: git remote
+  - # cd back to the first-repo, copy the https
+  - # add remote: git remote add origin https://github.com/ntbhoang/my-first-repo.git
+  - # git pull 
+  - # Now, we won't see anything, we need to set main branch to keep track with remote server: git checkout main 
