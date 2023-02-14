@@ -16,4 +16,13 @@
   - # Now, we won't see anything, we need to set main branch to keep track with remote server: git checkout main 
 
   4- Push and pull:
-  
+  - # before pushing, should pulling to get the lattest changes from the remote repository
+
+  5- HEAD:
+  - # open .git folder: cd .git
+  - # cat HEAD - in git we only work on single branch at a time
+  - # create a new branch: git checkout -B testing 
+  - # Git then move the head to point to the branch
+  - # cat .git/HEAD -> refs/heads/testing
+  - # hex id: cat .git/refs/heads/main
+
