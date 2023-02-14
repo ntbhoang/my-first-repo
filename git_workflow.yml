@@ -26,3 +26,5 @@
   - # cat .git/HEAD -> refs/heads/testing
   - # hex id: cat .git/refs/heads/main
 
+  6- Diff commands:
+
