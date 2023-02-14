@@ -2,3 +2,6 @@
   - Modifier (Working directories) -> git add -> Staging Area -> git commit -> Committed Files -> git push -> Remote Repo
 2- Before making changes, verify the status:
   - git status
+  - git restore --stage file_name # unstage the file
+  - git checkout -B feature/lesson
+  - git branch # check the current branch
